@@ -298,7 +298,7 @@
   align-self: start;
 }
 .bio-logo { width: 112px; height: 112px; margin-bottom: 28px; display: grid; place-items: center; }
-.bio-logo img { width: 100%; height: 100%; object-fit: contain; filter: brightness(0) invert(1);}
+.bio-logo img { width: 100%; height: 100%; object-fit: contain; }
 .bio-logo>span { font: 3.5rem/1 Georgia, serif; color: #e9dcc1; }
 .bio-eyebrow { color: #e1cbaa; font-size: .65rem; font-weight: 500; letter-spacing: .17em; text-transform: uppercase; margin-bottom: 12px; }
 .bio-brand-copy h1 { font: 400 clamp(1.8rem, 3vw, 2.55rem)/1.18 Georgia, 'Times New Roman', serif; letter-spacing: -.035em; overflow-wrap: anywhere; }

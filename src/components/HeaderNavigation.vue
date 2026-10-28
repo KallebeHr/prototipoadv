@@ -513,7 +513,6 @@ onUnmounted(() => {
   height: 58px;
   max-width: none;
   object-fit: contain;
-  filter: brightness(0) invert(1);
 }
 
 .monogram {
@@ -645,7 +644,6 @@ onUnmounted(() => {
   max-width: none;
   max-height: none;
   object-fit: contain;
-  filter: brightness(0) invert(1);
 
 }
 .search button .mdi {
