@@ -1,20 +1,20 @@
 import { reactive } from 'vue'
 export const siteConfig = reactive({
   brand: {
-    officeName: 'Leite Holanda & Carvalho',
-    shortName: 'Leite Holanda & Carvalho',
-    professionalName: 'Leite Holanda & Carvalho',
-    oab: 'OAB/MA 29.564-A',
-    logo: '/Logo.png',
-    initials: 'RB',
-    favicon: '/favicon.ico',
+    officeName: 'Ayub & Dilem',
+    shortName: 'Ayub & Dilem',
+    professionalName: 'Ayub & Dilem',
+    oab: 'OAB/ES 12.345-A',
+    logo: '/LogoPNG2.png',
+    initials: 'AD',
+    favicon: '/LogoPNG2.png',
     developer: 'Max Sistemas',
   },
 
   theme: {
  primary: '#041E2D',      // Verde-floresta institucional
-  primaryDark: '#10271f',  // Verde profundo, elegante
-  secondary: '#5a7a68',    // Verde-sálvia (identidade Agro)
+  primaryDark: '#A88420',  // Verde profundo, elegante
+  secondary: '#A88420',    // Verde-sálvia (identidade Agro)
   accent: '#b79a65',       // Dourado sofisticado
   surface: '#ffffff',      // Branco
   surfaceSoft: '#f5f6f1',  // Off-white com toque natural
@@ -24,7 +24,7 @@ export const siteConfig = reactive({
   
 hero: {
   eyebrow: 'Ramon Bastos | Advocacia Agro',
-  title: 'Atuação em Direito Previdenciário, Bancário, Cível, Imobiliário, Trabalhista e Público.',
+  title: 'Atuação em Direito Criminal, Trabalhista, de Família, do Consumidor e Empresarial.',
   highlight: 'no campo',
   subtitle: 'Atuação estratégica na defesa do produtor rural, com soluções jurídicas para dívidas rurais, contratos, execuções e regularização de imóveis.',
   video: '/IMG-VIDEOS/Teste.mp4',
@@ -34,19 +34,20 @@ hero: {
 },
 
 contact: {
-  phone: '(89) 99429-1864',
-  phoneRaw: '5589994291864',
-  whatsapp: '5589994291864',
-whatsappMessage: 'Olá! Vim pelo site e gostaria de receber orientação jurídica sobre uma questão nas áreas de atuação do escritório.',  email: 'leiteholandacarvalho@gmail.com',
-  address: 'Picos e Itainópolis/P',
-  city: 'Picos e Itainópolis/PI',
-  zipCode: '58000-000',
-  businessHours: 'Segunda a sexta, das 8h às 18h',
-  emergencyPhone: '(89) 99429-1864',
-  mapUrl: 'https://www.google.com/maps/dir/?api=1&destination=Jo%C3%A3o%20Pessoa%2C%20PB',
-  latitude: -7.1195,
-  longitude: -34.8450,
-  mapZoom: 11,
+  phone: '(28) 9 9957-5937',
+  phoneRaw: '5528999575937',
+  whatsapp: '5528999575937',
+whatsappMessage: 'Olá! Vim pelo site e gostaria de receber orientação jurídica.',
+email: 'Sem Informações',
+address: 'Rua Honório Fraga, 1155, Centro',
+city: 'Muqui/ES',
+zipCode: '29480-000',
+businessHours: 'Segunda a sexta, das 8h às 18h',
+emergencyPhone: '(28) 99941-5937',
+mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua+Honorio+Fraga+1155+Centro+Muqui+ES+29480-000',
+mapZoom: 16,
+  latitude: -20.946950011432907,
+  longitude: -41.34031713307581,
 },
 
 booking: {
@@ -130,12 +131,11 @@ professionalProfiles: [
     registration: '',
     education: [],
     areas: [
-      'Direito Previdenciário',
-      'Direito Bancário',
-      'Direito Cível',
-      'Direito Imobiliário',
-      'Direito Trabalhista',
-      'Direito Público',
+  'Direito Criminal',
+  'Direito Trabalhista',
+  'Direito de Família',
+  'Direito do Consumidor',
+  'Direito Empresarial',
     ],
     biography: 'Nossa equipe atua na advocacia e consultoria jurídica, oferecendo orientação e acompanhamento nas áreas Previdenciária, Bancária, Cível, Imobiliária, Trabalhista e de Direito Público. Com atuação em Picos e Itainópolis/PI e atendimento on-line, buscamos oferecer soluções jurídicas responsáveis, com ética, transparência e atenção individualizada às necessidades de cada cliente.',
     email: '',
@@ -146,12 +146,11 @@ professionalProfiles: [
     registration: '',
     education: [],
     areas: [
-      'Direito Previdenciário',
-      'Direito Bancário',
-      'Direito Cível',
-      'Direito Imobiliário',
-      'Direito Trabalhista',
-      'Direito Público',
+   'Direito Criminal',
+  'Direito Trabalhista',
+  'Direito de Família',
+  'Direito do Consumidor',
+  'Direito Empresarial',
     ],
     biography: 'Nossa equipe atua na advocacia e consultoria jurídica, oferecendo orientação e acompanhamento nas áreas Previdenciária, Bancária, Cível, Imobiliária, Trabalhista e de Direito Público. Com atuação em Picos e Itainópolis/PI e atendimento on-line, buscamos oferecer soluções jurídicas responsáveis, com ética, transparência e atenção individualizada às necessidades de cada cliente.',
     email: '',
@@ -161,14 +160,13 @@ professionalProfiles: [
     slug: 'equipe-juridica',
     registration: '',
     education: [],
-    areas: [
-      'Direito Previdenciário',
-      'Direito Bancário',
-      'Direito Cível',
-      'Direito Imobiliário',
-      'Direito Trabalhista',
-      'Direito Público',
-    ],
+ areas: [
+  'Direito Criminal',
+  'Direito Trabalhista',
+  'Direito de Família',
+  'Direito do Consumidor',
+  'Direito Empresarial',
+],
     biography: 'Nossa equipe atua na advocacia e consultoria jurídica, oferecendo orientação e acompanhamento nas áreas Previdenciária, Bancária, Cível, Imobiliária, Trabalhista e de Direito Público. Com atuação em Picos e Itainópolis/PI e atendimento on-line, buscamos oferecer soluções jurídicas responsáveis, com ética, transparência e atenção individualizada às necessidades de cada cliente.',
     email: '',
     whatsapp: '',
@@ -176,14 +174,14 @@ professionalProfiles: [
 ],
 
 social: {
-  instagram: 'https://www.instagram.com/leiteholandacarvalhoadv',
+  instagram: 'https://www.instagram.com/ayubdilem.advogados/',
 },
 
 
 
 linkBio: {
   title: '',
-  eyebrow: 'Advocacia e Consultoria Jurídica',
+  eyebrow: 'Advogados',
   description: 'Atuação nas áreas Previdenciária, Bancária, Cível, Imobiliária, Trabalhista e de Direito Público. Orientação jurídica responsável, atendimento humanizado e soluções estratégicas para proteger seus direitos. Atendemos em Picos e Itainópolis/PI, com atendimento on-line.',
   coverImage: '',
   coverAlt: '',
@@ -203,18 +201,7 @@ linkBio: {
       href: '#agendamento',
       icon: 'mdi-calendar-outline',
     },
-    {
-      label: 'Áreas de atuação',
-      description: 'Previdenciário, Bancário, Cível, Imobiliário, Trabalhista e Público',
-      href: '#areas',
-      icon: 'mdi-scale-balance',
-    },
-    {
-      label: 'Prepare seu atendimento',
-      description: 'Confira os documentos necessários para sua consulta jurídica',
-      href: '#documentos',
-      icon: 'mdi-file-document-outline',
-    },
+
   ],
 },
 
@@ -233,7 +220,7 @@ googleReviews: {
 
 about: {
   title: 'Advocacia e Consultoria Jurídica com compromisso e responsabilidade',
-  photo: '/media/Equipe.png',
+  photo: '/media/Equipe4.png',
   photoAlt: 'Equipe de advocacia e consultoria jurídica com atuação em Picos e Itainópolis, Piauí',
   text: 'Nosso escritório oferece serviços de advocacia e consultoria jurídica, com atuação nas áreas Previdenciária, Bancária, Cível, Imobiliária, Trabalhista e de Direito Público. Atendemos clientes em Picos e Itainópolis, no Piauí, além de disponibilizar atendimento on-line para proporcionar maior comodidade e acessibilidade. Nosso compromisso é compreender as particularidades de cada situação, oferecer orientação jurídica clara e desenvolver estratégias responsáveis, pautadas pela ética, transparência e respeito aos direitos de nossos clientes.',
   subtitle: 'Orientação jurídica especializada, atendimento humanizado e soluções responsáveis para pessoas físicas e jurídicas.',
@@ -263,34 +250,29 @@ about: {
 
 practiceAreas: [
   {
-    title: 'Direito Previdenciário',
-    description: 'Orientação e acompanhamento em aposentadorias, pensões, benefícios por incapacidade, BPC/LOAS, revisões de benefícios e demandas administrativas ou judiciais perante o INSS.',
-    icon: 'fa-solid fa-hand-holding-heart',
-  },
-  {
-    title: 'Direito Bancário',
-    description: 'Análise e revisão de contratos bancários, cobranças indevidas, empréstimos, financiamentos, fraudes financeiras e conflitos nas relações entre consumidores e instituições financeiras.',
-    icon: 'fa-solid fa-building-columns',
-  },
-  {
-    title: 'Direito Cível',
-    description: 'Assessoria e representação jurídica em contratos, responsabilidade civil, indenizações, cobranças, relações de consumo e resolução de conflitos entre pessoas físicas e jurídicas.',
+    title: 'Direito Criminal',
+    description: 'Atuação na defesa dos direitos e garantias individuais, acompanhamento de inquéritos policiais, processos criminais, audiências, habeas corpus e demais questões relacionadas ao Direito Penal.',
     icon: 'fa-solid fa-scale-balanced',
   },
   {
-    title: 'Direito Imobiliário',
-    description: 'Orientação jurídica em compra e venda de imóveis, regularização imobiliária, contratos de locação, questões de posse, propriedade, usucapião e conflitos imobiliários.',
-    icon: 'fa-solid fa-house',
-  },
-  {
     title: 'Direito Trabalhista',
-    description: 'Orientação e atuação em relações de trabalho, verbas rescisórias, reconhecimento de vínculo empregatício, direitos trabalhistas, rescisões contratuais e demandas judiciais trabalhistas.',
+    description: 'Orientação e representação em questões trabalhistas, reconhecimento de vínculo empregatício, verbas rescisórias, horas extras, rescisões contratuais, direitos do trabalhador e reclamações trabalhistas.',
     icon: 'fa-solid fa-briefcase',
   },
   {
-    title: 'Direito Público',
-    description: 'Consultoria e atuação jurídica em questões relacionadas à Administração Pública, direitos de servidores públicos, concursos, processos administrativos e demandas envolvendo órgãos públicos.',
-    icon: 'fa-solid fa-landmark',
+    title: 'Direito de Família',
+    description: 'Assessoria jurídica em divórcios, guarda de filhos, pensão alimentícia, regulamentação de visitas, união estável, inventários, partilha de bens e demais questões familiares.',
+    icon: 'fa-solid fa-people-roof',
+  },
+  {
+    title: 'Direito do Consumidor',
+    description: 'Atuação em casos de cobranças indevidas, negativação irregular, problemas com produtos e serviços, contratos abusivos, falhas na prestação de serviços e indenizações por danos morais e materiais.',
+    icon: 'fa-solid fa-cart-shopping',
+  },
+  {
+    title: 'Direito Empresarial',
+    description: 'Assessoria jurídica para empresas e empreendedores, elaboração e análise de contratos, questões societárias, constituição de empresas, recuperação de crédito e prevenção de conflitos comerciais.',
+    icon: 'fa-solid fa-building',
   },
 ],
 
@@ -329,26 +311,10 @@ faq: [
 
 team: [
   {
-    name: 'Dra. Roseane Holanda',
-    role: 'Advocacia e Consultoria Jurídica',
-    description: 'Atuação nas áreas Previdenciária, Bancária, Cível, Imobiliária, Trabalhista e de Direito Público, oferecendo orientação jurídica, atendimento individualizado e acompanhamento responsável das demandas de nossos clientes em Picos, Itainópolis e por meio de atendimento on-line.',
-    photo: '/IMGADV/01.webp',
-    instagram: '',
-    linkedin: '',
-  },
-  {
-    name: 'Dra. Mariana Holanda',
-    role: 'Advocacia e Consultoria Jurídica',
-    description: 'Atuação nas áreas Previdenciária, Bancária, Cível, Imobiliária, Trabalhista e de Direito Público, oferecendo orientação jurídica, atendimento individualizado e acompanhamento responsável das demandas de nossos clientes em Picos, Itainópolis e por meio de atendimento on-line.',
-    photo: '/IMGADV/02.webp',
-    instagram: '',
-    linkedin: '',
-  },
-  {
-    name: 'Dr. José Wesley',
-    role: 'Advocacia e Consultoria Jurídica',
-    description: 'Atuação nas áreas Previdenciária, Bancária, Cível, Imobiliária, Trabalhista e de Direito Público, oferecendo orientação jurídica, atendimento individualizado e acompanhamento responsável das demandas de nossos clientes em Picos, Itainópolis e por meio de atendimento on-line.',
-    photo: '/IMGADV/03.webp',
+    name: 'Dra. Maria Ayub',
+    role: 'Advogados',
+    description: 'Atuação nas áreas Criminal, Trabalhista, de Família, do Consumidor e Empresarial, oferecendo orientação jurídica especializada, atendimento individualizado e acompanhamento responsável das demandas de nossos clientes em Muqui/ES e região, além de atendimento on-line.',
+    photo: '/IMGADV/dr.png',
     instagram: '',
     linkedin: '',
   },
@@ -357,7 +323,7 @@ team: [
 testimonials: [],
 
 seo: {
-  title: 'Advocacia e Consultoria Jurídica | Picos e Itainópolis - PI',
+  title: 'Advocacia e Consultoria Jurídica | Muqui/ES e região',
   description: 'Escritório de advocacia e consultoria jurídica em Picos e Itainópolis, Piauí. Atuação em Direito Previdenciário, Bancário, Cível, Imobiliário, Trabalhista e Público. Atendimento jurídico on-line.',
 },
 

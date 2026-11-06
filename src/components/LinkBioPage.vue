@@ -297,6 +297,7 @@
   border-radius: 0 0 24px 0;
   align-self: start;
 }
+
 .bio-logo { width: 112px; height: 112px; margin-bottom: 28px; display: grid; place-items: center; }
 .bio-logo img { width: 100%; height: 100%; object-fit: contain; }
 .bio-logo>span { font: 3.5rem/1 Georgia, serif; color: #e9dcc1; }
